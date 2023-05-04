@@ -30,6 +30,7 @@
   width: 125px;
   height: 50px;
   border-radius: 15%;
+  margin-bottom: 15px;
 }
 .anh {
   max-width: 99%;
@@ -37,4 +38,13 @@
 }
 #first {
   display: none;
+}
+.button_4 {
+  margin-top: 15px;
+  width: 300px;
+  height: 70px;
+  border-radius: 15%;
+  margin-bottom: 15px;
+  background-color: red;
+  font-size: x-large;
 }
