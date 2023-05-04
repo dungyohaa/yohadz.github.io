@@ -2,20 +2,39 @@
 .container {
   position: relative;
   text-align: center;
-  color: white;
 }
 .centered {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: blueviolet;
+  color: rgb(0, 0, 0);
 }
 .text {
   margin-bottom: 15px;
+  font-size: large;
 }
-.button {
-  width: 100px;
+.button_1 {
+  width: 125px;
   height: 50px;
   border-radius: 15%;
+  margin-bottom: 15px;
+}
+.button_2 {
+  width: 125px;
+  height: 50px;
+  border-radius: 15%;
+  margin-bottom: 15px;
+}
+.button_3 {
+  width: 125px;
+  height: 50px;
+  border-radius: 15%;
+}
+.anh {
+  max-width: 99%;
+  max-height: 99%;
+}
+#first {
+  display: none;
 }
