@@ -25,7 +25,6 @@ body {
   background: #000;
   overflow: hidden;
 }
-
 .pyro > .before,
 .pyro > .after {
   position: absolute;
@@ -407,4 +406,7 @@ body {
 .title {
   place-items: center;
   text-align: center;
+}
+.anh {
+  height: 3000px;
 }
