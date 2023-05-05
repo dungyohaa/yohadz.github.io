@@ -5,15 +5,16 @@
 .centered {
   position: absolute;
   top: 800px;
-  left: 45%;
+  left: 50%;
   transform: translate(-50%, -50%);
   color: rgb(0, 0, 0);
 }
 .text {
-  margin-bottom: 15px;
+  margin-bottom: 5px;
   font-size: 25px;
   font-family: monospace;
   font-weight: 700;
+  margin-top: 5px;
 }
 .special {
   margin-left: 300px;
