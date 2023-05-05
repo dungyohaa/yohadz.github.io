@@ -1,6 +1,6 @@
 .container {
+  position: relative;
   text-align: center;
-  display: block;
 }
 .centered {
   position: absolute;
@@ -13,7 +13,6 @@
   margin-bottom: 15px;
   font-size: large;
   font-family: monospace;
-  font-weight: 700;
 }
 .button_1 {
   width: 125px;
