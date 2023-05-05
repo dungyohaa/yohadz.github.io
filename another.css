@@ -1,30 +1,79 @@
 .container {
-  position: relative;
   text-align: center;
+  display: block;
 }
 .centered {
   position: absolute;
-  top: 60%;
+  top: 800px;
   left: 45%;
   transform: translate(-50%, -50%);
-  font-family: monospace;
   color: rgb(0, 0, 0);
 }
 .text {
   margin-bottom: 15px;
-  font-size: 40px;
+  font-size: 25px;
   font-family: monospace;
   font-weight: 700;
 }
 .special {
   margin-left: 300px;
 }
-body {
-  margin: 0;
-  padding: 0;
-  background: #000;
-  overflow: hidden;
+.title-word {
+  animation: color-animation 4s linear infinite;
 }
+
+.title-word-1 {
+  --color-1: #df8453;
+  --color-2: #3d8dae;
+  --color-3: #e4a9a8;
+}
+
+.title-word-2 {
+  --color-1: #dbad4a;
+  --color-2: #accfcb;
+  --color-3: #17494d;
+}
+
+.title-word-3 {
+  --color-1: #accfcb;
+  --color-2: #e4a9a8;
+  --color-3: #accfcb;
+}
+
+.title-word-4 {
+  --color-1: #3d8dae;
+  --color-2: #df8453;
+  --color-3: #e4a9a8;
+}
+
+@keyframes color-animation {
+  0% {
+    color: var(--color-1);
+  }
+  32% {
+    color: var(--color-1);
+  }
+  33% {
+    color: var(--color-2);
+  }
+  65% {
+    color: var(--color-2);
+  }
+  66% {
+    color: var(--color-3);
+  }
+  99% {
+    color: var(--color-3);
+  }
+  100% {
+    color: var(--color-1);
+  }
+}
+.title {
+  place-items: center;
+  text-align: center;
+}
+
 .pyro > .before,
 .pyro > .after {
   position: absolute;
@@ -351,62 +400,4 @@ body {
     margin-top: 30%;
     margin-left: 80%;
   }
-}
-.title-word {
-  animation: color-animation 4s linear infinite;
-}
-
-.title-word-1 {
-  --color-1: #df8453;
-  --color-2: #3d8dae;
-  --color-3: #e4a9a8;
-}
-
-.title-word-2 {
-  --color-1: #dbad4a;
-  --color-2: #accfcb;
-  --color-3: #17494d;
-}
-
-.title-word-3 {
-  --color-1: #accfcb;
-  --color-2: #e4a9a8;
-  --color-3: #accfcb;
-}
-
-.title-word-4 {
-  --color-1: #3d8dae;
-  --color-2: #df8453;
-  --color-3: #e4a9a8;
-}
-
-@keyframes color-animation {
-  0% {
-    color: var(--color-1);
-  }
-  32% {
-    color: var(--color-1);
-  }
-  33% {
-    color: var(--color-2);
-  }
-  65% {
-    color: var(--color-2);
-  }
-  66% {
-    color: var(--color-3);
-  }
-  99% {
-    color: var(--color-3);
-  }
-  100% {
-    color: var(--color-1);
-  }
-}
-.title {
-  place-items: center;
-  text-align: center;
-}
-.anh {
-  height: 3000px;
 }
