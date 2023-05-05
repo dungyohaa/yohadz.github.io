@@ -33,8 +33,7 @@
   margin-bottom: 15px;
 }
 .anh {
-  max-width: 99%;
-  max-height: 99%;
+  height: 3000px
 }
 #first {
   display: none;
